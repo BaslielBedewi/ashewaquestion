@@ -29,7 +29,7 @@ const data_totalVisitors = {
     datasets: [
         {
             label: 'Total Visitors',
-            data: [1, 100, 14, 50, 70],
+            data: [4, 100, 14, 50, 70],
             borderColor: '#00B728',
             backgroundColor: '#00B728',
         },
