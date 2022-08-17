@@ -40,7 +40,7 @@ const data_totalContacts = {
     datasets: [
         {
             label: 'Total Contacts Shared',
-            data: [1, 10, 14, 5, 7],
+            data: [8, 10, 14, 5, 7],
             borderColor: '#00B728',
             backgroundColor: '#00B728',
         },
