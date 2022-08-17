@@ -23,13 +23,13 @@ ChartJS.register(
     Tooltip,
     Legend
 );
-const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const labels = ['መስከረም', 'ጥቅምት', 'ህዳር', 'ታህሳስ', 'ጥር', 'የካቲት', 'መጋቢት', 'ሚያዚያ', 'ግንቦት', 'ሰኔ', 'ሐምሌ', 'ነሃሴ'];
 const data_totalVisitors = {
     labels,
     datasets: [
         {
             label: 'Total Visitors',
-            data: [0, 100, 14, 50, 70],
+            data: [1, 100, 14, 50, 70],
             borderColor: '#00B728',
             backgroundColor: '#00B728',
         },
@@ -40,7 +40,7 @@ const data_totalContacts = {
     datasets: [
         {
             label: 'Total Contacts Shared',
-            data: [0, 10, 14, 5, 7],
+            data: [1, 10, 14, 5, 7],
             borderColor: '#00B728',
             backgroundColor: '#00B728',
         },
