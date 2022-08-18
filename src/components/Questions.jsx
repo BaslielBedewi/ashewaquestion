@@ -29,7 +29,7 @@ function Questions() {
         <div className="flex items-center justify-center flex-wrap ">
           <textarea
             cols="30"
-            rows="9"
+            rows="10"
             placeholder="Enter Question"
             className="mt-8 border-2  border-primary  w-[34rem] rounded-md p-1"
             value={questions}
@@ -40,7 +40,7 @@ function Questions() {
         <div className="flex items-center justify-center flex-wrap ">
           <textarea
             cols="30"
-            rows="9"
+            rows="10"
             placeholder="Enter Answer"
             className="mt-8 border-2 border-primary w-[34rem] rounded-md p-1"
             value={answers}
