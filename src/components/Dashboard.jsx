@@ -88,7 +88,7 @@ const Dashboard = () => {
 
     return (
         <>
-            <div className="flex justify-center flex-wrap bg-slate-100 h-fit mt-7">
+            <div className="flex justify-center flex-wrap bg-slate-100 h-fit">
                 <CustomCards
                     title={"Questions"}
                     description={"Total Questions"}
@@ -105,9 +105,9 @@ const Dashboard = () => {
                 <Line data={data_totalVisitors} />
                 <Bar className="bg-slate-100" data={data_totalContacts} />
             </div>
-
+             <h1 className="text-center m-4 text-primary mt-6 border-b-2">Contacts shared</h1>
             <Table  columns={columns}  dataSource={dataSource} pagination={false}/>
-           
+           6 
         </>
     );
 }
