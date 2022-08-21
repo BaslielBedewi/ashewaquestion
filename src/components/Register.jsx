@@ -65,7 +65,7 @@ function Register() {
     <div className="fixed flex justify-center items-center top-0 left-0 w-full h-screen bg-gray-200">
         <div className=" bg-white w-80 h-auto shadow-xl rounded-lg">
             <form onSubmit={handlesubmit}>
-              <Link to="/">
+              <Link to="/ashewaquestion">
                 <img src={backicon} alt="" className="w-5 m-2" />
               </Link>
               <h1 className="text-center text-blackdim font-semibold text-[25px] w">
