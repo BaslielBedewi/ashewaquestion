@@ -34,7 +34,7 @@ function Nav() {
          <FaBell />
          </IconContext.Provider></Link>
          </div>
-        <Link to={"/"} className="pr-7 text-dim hover:text-primary">
+        <Link to={"/ashewaquestion"} className="pr-7 text-dim hover:text-primary">
           Logout
         </Link>
         </div>
