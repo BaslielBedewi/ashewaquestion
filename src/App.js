@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Questions from "./components/Questions";
 import Tables from "./components/Tables";
 import Dashboard from "./components/Dashboard";
+import NotificationPage from "./components/notificationPage";
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
           <Nav />
           <Tables />
         </Route>
+        <Route exact path={"/notificationPage"}>
+        <Nav />
+        <NotificationPage/>
+      </Route>
       </Switch>
     </Router>
   );
