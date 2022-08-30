@@ -6,7 +6,6 @@ function Questions() {
   const [answers, setanswer] = useState('');
   const [isAdding,setisAdding]=useState(false);
   const history=useHistory();
-  
   const handlesubmit=(e)=>
   {
     e.preventDefault();

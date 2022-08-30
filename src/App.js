@@ -6,7 +6,7 @@ import Nav from "./components/Nav";
 import Questions from "./components/Questions";
 import Tables from "./components/Tables";
 import Dashboard from "./components/Dashboard";
-import NotificationPage from "./components/notificationPage";
+import NotificationPage from "./components/NotificationPage";
 
 function App() {
   return (
